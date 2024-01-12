@@ -1,6 +1,13 @@
+package api;
+
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
 public class WeatherApiService {
 
-    private static final String API_KEY = "YOUR_WEATHERSTACK_API_KEY";
+    private static final String API_KEY = "fe5a66f8ca79e104b414747522524619";
     private static final String API_URL = "http://api.weatherstack.com/current";
     private static final String FORECAST_API_URL = "http://api.weatherstack.com/forecast";
 
