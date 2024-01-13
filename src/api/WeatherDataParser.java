@@ -16,4 +16,27 @@ public class WeatherDataParser {
 
         return new CurrentWeather(currentTemperature, currentDescription, hourlyForecast);
     }
+
+    public static DailyWeather[] parse7DayForecast(String response) {
+        JSONObject json = new JSONObject(response);
+
+        JSONObject forecast = json.getJSONObject("forecast");
+        JSONObject forecastData = forecast.getJSONObject("forecastdata");
+
+        DailyWeather[] dailyWeatherArray = new DailyWeather[7];
+
+        for (int i = 0; i < 7; i++) {
+            JSONObject dayForecast = forecastData.getJSONArray("weather").getJSONObject(i);
+
+            String date = dayForecast.getString("date");
+            double maxTemperature = dayForecast.getDouble("maxtemp");
+            double minTemperature = dayForecast.getDouble("mintemp");
+            double windSpeed = dayForecast.getDouble("windspeed");
+            double chanceOfRain = dayForecast.getDouble("precip");
+
+            dailyWeatherArray[i] = new DailyWeather(date, maxTemperature, minTemperature, windSpeed, chanceOfRain);
+        }
+
+        return dailyWeatherArray;
+    }
 }

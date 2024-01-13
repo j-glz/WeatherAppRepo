@@ -1,25 +1,0 @@
-
-X
-java:S1141¿"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8ùä‹“Ï1
-W
-java:S1118":Add a private constructor to hide the implicit public one.(ÕŠ•Ó8Šå‹“Ï1
-M
-java:S1874"+Remove this use of "URL"; it is deprecated.(÷Êõøşÿÿÿÿ8Œå‹“Ï1
-G	java:S106@"+Replace this use of System.out by a logger.(ÇÉ Š8å‹“Ï1
-G	java:S106A"+Replace this use of System.out by a logger.(òôøŞ8å‹“Ï1
-G	java:S106D"+Replace this use of System.out by a logger.(ëÀÁâ8å‹“Ï1
-L	java:S106K"+Replace this use of System.out by a logger.(½§àüÿÿÿÿ8å‹“Ï1
-L	java:S106g"+Replace this use of System.out by a logger.(¸ÏÀ…ûÿÿÿÿ8å‹“Ï1
-G	java:S106h"+Replace this use of System.out by a logger.(·áè8å‹“Ï1
-G	java:S106i"+Replace this use of System.out by a logger.(ğâÈá8å‹“Ï1
-L	java:S106j"+Replace this use of System.out by a logger.(ıòÑÀúÿÿÿÿ8å‹“Ï1
-G	java:S106k"+Replace this use of System.out by a logger.(äåí8å‹“Ï1
-L	java:S106l"+Replace this use of System.out by a logger.(Å¾ø³úÿÿÿÿ8å‹“Ï1
-\
-java:S1118p":Add a private constructor to hide the implicit public one.(ŸŞ¦óÿÿÿÿÿ8ˆ—•“Ï1
-M	java:S106©"+Replace this use of System.out by a logger.(èšş·ÿÿÿÿÿ8–å‹“Ï1
-I
-java:S1172¯"+Remove this unused method parameter "args".(èïåÇ8–å‹“Ï1
-H	java:S106±"+Replace this use of System.out by a logger.(À¥À8—å‹“Ï1
-M	java:S106´"+Replace this use of System.out by a logger.(ßÒ Ìøÿÿÿÿ8—å‹“Ï1
-M	java:S106¸"+Replace this use of System.out by a logger.(ø¾é˜üÿÿÿÿ8˜å‹“Ï1
